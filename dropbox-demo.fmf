@@ -1,0 +1,78 @@
+﻿[FormFile]
+Version=CSPro 7.1
+Name=DROPBOX_DEMO_FF
+Label=dropbox-demo
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\dropbox-demo.dcf
+  
+[Form]
+Name=FORM000
+Label=(Id Items)
+Level=1
+Size=1236,300
+  
+Item=DROPBOX_DEMO_ID
+  
+[EndForm]
+  
+[Form]
+Name=FORM001
+Label=dropbox-demo record
+Level=1
+Size=1236,300
+  
+Item=MENU
+  
+[EndForm]
+  
+[Level]
+Name=DROPBOX_DEMO_QUEST
+Label=dropbox-demo questionnaire
+  
+[Group]
+Required=Yes
+Name=IDS0_FORM
+Label=(Id Items)
+Form=1
+LogicControl=No
+Max=1
+  
+[Field]
+Name=DROPBOX_DEMO_ID
+Position=252,27,267,47
+Item=DROPBOX_DEMO_ID,DROPBOX_DEMO_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=50,30,230,46
+Text=dropbox-demo identification
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=DROPBOX_DEMO_REC_FORM
+Label=dropbox-demo record
+Form=2
+LogicControl=No
+Max=1
+  
+[Field]
+Name=MENU
+Position=107,27,122,47
+Item=MENU,DROPBOX_DEMO_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=DropDown
+Form=2
+  
+[Text]
+Position=50,30,85,46
+Text=Menu
+ 
+[EndGroup]
+  

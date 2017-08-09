@@ -1,0 +1,30 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=DROPBOX_DEMO
+Name=DROPBOX_DEMO
+AppType=DataEntry
+OperatorID=No
+ValidateAlphaFields=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+[External Dictionaries]
+File=.\Simple CAPI.dcf
+[AppCode]
+File=.\dropbox-demo.ent.apc
+[Message]
+File=.\dropbox-demo.ent.mgf
+[Help]
+File=.\dropbox-demo.ent.qsf
+[Forms]
+File=.\dropbox-demo.fmf
+[Resources]
+Folder=.\resources
+[Dictionary Types]
+Dict-Type=.\dropbox-demo.dcf,Input,.\dropbox-demo.fmf
+Dict-Type=.\Simple CAPI.dcf,External

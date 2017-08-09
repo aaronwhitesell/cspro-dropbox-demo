@@ -1,0 +1,40 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=dropbox-demo
+Name=DROPBOX_DEMO_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=dropbox-demo questionnaire
+Name=DROPBOX_DEMO_QUEST
+
+[IdItems]
+
+[Item]
+Label=dropbox-demo identification
+Name=DROPBOX_DEMO_ID
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=dropbox-demo record
+Name=DROPBOX_DEMO_REC
+RecordTypeValue='1'
+RecordLen=3
+
+[Item]
+Label=Menu
+Name=MENU
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Menu
+Name=MENU_VS1
+Value=1;Menu

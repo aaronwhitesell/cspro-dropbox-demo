@@ -1,0 +1,16 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\dropbox-demo.ent
+InputData=|NONE
+
+[ExternalFiles]
+SIMPLECAPI_DICT=.\resources\Simple CAPI Data.csdb|CSPRODB
+
+[Parameters]
+
